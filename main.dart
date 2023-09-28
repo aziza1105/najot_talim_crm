@@ -1,8 +1,6 @@
 import 'dart:io';
 
-void main() {
-  
-}
+void main() {}
 
 class Person {
   late String name;
