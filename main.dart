@@ -1,5 +1,8 @@
 import 'dart:io';
-import './logout.dart';
+
+void main() {
+  
+}
 
 class Person {
   late String name;
@@ -17,7 +20,7 @@ class Person {
     late String name1;
     late int id1;
     late String password1;
-    lst = takeInformation();
+    lst = takeInfromation();
     String trash = lst[2];
     id1 = int.tryParse(trash) ?? -1;
     name1 = '${lst[0]}';
